@@ -13,8 +13,6 @@ gem 'jbuilder'
 gem 'pg'
 gem 'puma'
 gem 'rails'
-gem 'sass-rails'
-gem 'uglifier'
 gem 'webpacker'
 
 group :development do
