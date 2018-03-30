@@ -16,11 +16,11 @@ gem 'uglifier'
 gem 'webpacker'
 
 group :development do
+  gem 'brakeman', require: false
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'listen'
   gem 'rubocop'
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'web-console'
-  gem 'brakeman', require: false
 end
