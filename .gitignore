@@ -1,3 +1,22 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
+.byebug_history
+
 .idea/
-.bundle/
-vendor/
+vendor//public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity
+
+vendor/bundle
