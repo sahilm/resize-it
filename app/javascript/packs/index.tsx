@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import {Hello} from "./hello_react";
+import {Hello} from "../hello_react";
 
 document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(
