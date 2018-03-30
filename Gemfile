@@ -22,4 +22,5 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'web-console'
+  gem 'brakeman', require: false
 end
