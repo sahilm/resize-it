@@ -4,7 +4,7 @@ import {Hello} from "../hello_react";
 
 document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(
-        <Hello compiler="TypeScript" framework="React"/>,
+        <Hello compiler="bulla" framework="foo"/>,
         document.getElementById("example"),
     );
 });
