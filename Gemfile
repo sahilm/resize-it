@@ -14,6 +14,7 @@ gem 'pg'
 gem 'puma'
 gem 'rails'
 gem 'webpacker'
+gem 'activerecord-session_store'
 
 group :development do
   gem 'brakeman', require: false
